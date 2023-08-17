@@ -1,0 +1,30 @@
+
+  
+  h1.centered {
+    text-align: center;
+  }
+
+/*.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../assets/images/eventimg.jpg');
+    /*height: 100vh; /* This ensures the content is vertically centered on the page */
+    /*margin: 0;*
+  }*/
+  .column
+  {
+    float:left;
+    width:14%;
+    padding:3px;
+  }
+  .row::after
+  {
+    width:3%;
+    content:"";
+    display:table;
+    clear:both;
+  }
+
+  
+  
